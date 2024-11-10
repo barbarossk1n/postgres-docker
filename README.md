@@ -17,5 +17,5 @@ postgres-docker/
 Для запуска БД  
 * docker build -t custom-postgres .  
 * docker run -d -p 5432:5432 custom-postgres  
-* psql -h localhost -p 5432 -U test -d test  
+* psql -h localhost -p 5432 -U owner -d test (соответственно, затем пароль qwerty)
 (Проверял командой SELECT version(); - работает)  
