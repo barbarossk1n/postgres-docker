@@ -1,13 +1,13 @@
 ДИРЕКТОРИЯ:
 postgres-docker/ 
 ├── nginx-docker/  
-	├── Dockerfile     
-	├── nginx.conf  
-	└── html/    
-	└── index.html   <— простейший сайт с приветствием  
+------  ├── Dockerfile     
+------  ├── nginx.conf  
+------  └── html/    
+------  └── index.html   <— простейший сайт с приветствием  
 └── postgres-sql/  
-	├── Dockerfile  
-   	└── init.sql     <— в базе данных одна роль - owner с паролем qwerty, автоматически этому профилю даёт все права владельца  
+------  ├── Dockerfile  
+------  └── init.sql     <— в базе данных одна роль - owner с паролем qwerty, автоматически этому профилю даёт все права владельца  
 
 Для запуска сайта:  
 * docker build -t custom-nginx .  
