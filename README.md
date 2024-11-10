@@ -1,5 +1,5 @@
 ДИРЕКТОРИЯ:  
-postgres-docker/ 
+postgres-docker/  
 ├── nginx-docker/  
 ------  ├── Dockerfile     
 ------  ├── nginx.conf  
